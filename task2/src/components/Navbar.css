@@ -1,0 +1,59 @@
+.navbar {
+  background: linear-gradient(#004e92, #000428);
+  display: flex;
+  height: 50px;
+  border-radius: 5px;
+}
+.logo {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 22px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+.btnuser {
+  margin-left: 650px;
+  width: 120px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+}
+.card-main-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.card-container {
+  margin-left: 50px;
+}
+.card-container:hover {
+  transform: scale(0.9);
+}
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 50px;
+  width: 250px;
+  height: 300px;
+}
+.userimage {
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.userimage:hover {
+  transform: scale(0.9);
+}
+.username {
+  text-align: center;
+  font-size: 18px;
+}
+
+.useremail {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 17px;
+}

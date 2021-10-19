@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* header */
+.navbar {
+  display: flex;
+  color: white;
+  background-image: url(./Images/bgimg.jpg);
+  line-height: 50px;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  margin-left: 200px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.navlink {
+  margin-left: 200px;
+  margin-top: 10px;
+}
+.navlink a {
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffcd01;
+}
+
+/* Banner Section */
+
+#banner {
+  background-image: url(./Images/bgimg.jpg);
+  background-size: cover;
+  height: 90vh;
+  margin-top: 0px;
+}
+
+.bannerhead {
+  /* margin-top: 100px; */
+  margin-left: 200px;
+}
+.mainhead {
+  font-size: 40px;
+  color: white;
+}
+.subhead {
+  font-size: 18px;
+  color: white;
+}
+.bannerbtn {
+  margin-top: 30px;
+  margin-left: 200px;
+}
+.btnf {
+  background-color: #ffcd01;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  width: 150px;
+}
+.btns {
+  margin-left: 10px;
+  background-color: #5a2776;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  width: 150px;
+}
+
+/* About Section */
+.welhead {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 50px;
+}
+.about {
+  display: flex;
+  margin-top: 60px;
+}
+.para {
+  margin-left: 300px;
+  font-size: 19px;
+}
+.aboutinfo {
+  display: flex;
+  margin-top: 50px;
+}
+.aboutcon h3 {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.aboutcon i {
+  margin-left: 50px;
+  font-size: 25px;
+  background-color: #5a2776;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.aboutcon button {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border: none;
+}
+.aboutcon p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Projects Section */
+
+#projects h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.prosec {
+  display: flex;
+  margin-top: 50px;
+}
+.projectsection img {
+  width: 310px;
+  height: 200px;
+}
+.prosubsec {
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+.prosubsec h3,
+p {
+  margin-top: 5px;
+}
+.prosubsec button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 10px;
+  background-color: white;
+  color: #000000;
+  border: none;
+  border-radius: 2px;
+}
+
+/* Pricing Section */
+
+#pricing h2 {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 30px;
+}
+.pricesec {
+  margin-top: 50px;
+}
+.pricesec button {
+  margin-left: 15px;
+  padding: 5px;
+  width: 70px;
+  margin-top: 10px;
+  border: none;
+}
+/* Videos */
+.Slides {
+  margin-left: 430px;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Zippy Team */
+.team {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 30px;
+}
+.teamf {
+  display: flex;
+  margin-top: 50px;
+}
+.teammem img {
+  width: 120px;
+  border-radius: 50%;
+  height: 120px;
+}
+.teammem h5 {
+  text-align: center;
+}
+.teammem p {
+  text-align: center;
+  font-size: 14px;
+}
+.teams {
+  display: flex;
+  margin-top: 50px;
+}
+.teamsec img {
+  width: 120px;
+  border-radius: 50%;
+  height: 120px;
+}
+.teamsec h5 {
+  text-align: center;
+}
+.teamsec p {
+  text-align: center;
+  font-size: 14px;
+}
+/* Life of Zippy */
+.headingzip {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 28px;
+  padding-top: 30px;
+}
+.mainimg {
+  width: 600px;
+  height: 300px;
+  margin-top: 30px;
+  margin-left: 350px;
+}
+.lifegallary {
+  margin-left: 350px;
+}
+.lifegallary img {
+  width: 80px;
+  height: 50px;
+}
+.lifegallary i {
+  color: white;
+  background-color: #5a2776;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* Newsletter */
+#newsletter {
+  background: url(./Images/bridgimg.jpg);
+  background-size: cover;
+  margin-top: 70px;
+  height: 55vh;
+}
+.newshead {
+  text-align: center;
+  font-size: 38px;
+  color: white;
+  padding-top: 50px;
+}
+.signbtn {
+  color: black;
+  background-color: #f5d75e;
+  border: none;
+  width: 100px;
+  height: 40px;
+  margin-left: -5px;
+  font-size: 14px;
+}
+.searchbar {
+  border: none;
+  width: 350px;
+  height: 40px;
+  margin-left: 400px;
+  font-size: 14px;
+  padding-left: 20px;
+}
+/* Blog  */
+.bloghead {
+  margin-top: 50px;
+  text-align: center;
+}
+.blogfle {
+  margin-top: 40px;
+}
+.blogfle img {
+  width: 200px;
+  height: 150px;
+}
+.blogfle h5 {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.blogfle button {
+  background-color: #ddd;
+  color: black;
+  border: none;
+  padding: 12px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.blogfle button:hover {
+  background-color: #ffcd01;
+}
+
+/* contact */
+#contact {
+  margin-top: 100px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1d562;
+  width: 60%;
+}
+.conhead {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+.contact label {
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.contact input {
+  width: 40%;
+  height: 25px;
+  margin-left: 50px;
+  border: none;
+  margin-top: 10px;
+}
+.contact textarea {
+  width: 40%;
+  margin-left: 50px;
+  border: none;
+  margin-top: 10px;
+}
+.contact button {
+  margin-top: 20px;
+  color: white;
+  background-color: #5a2776;
+  width: 40%;
+  height: 25px;
+  margin-left: 50px;
+  border: none;
+}
+/* Footer */
+#footer {
+  margin-top: 70px;
+  height: 30vh;
+}
